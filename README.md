@@ -6,4 +6,4 @@ Talleres realizados en el curso dictado en el sena
 |Sesión | Link |
 | ------| ---- |
 | Presentación      | https://speakerdeck.com/rderoldan1/presentacion |
-|2      | https://speakerdeck.com/rderoldan1/primera-sesion |
+|1      | https://speakerdeck.com/rderoldan1/primera-sesion |
