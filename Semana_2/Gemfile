@@ -1,0 +1,14 @@
+source 'https://rubygems.org'
+
+# Debugger
+gem 'byebug'
+
+# Used by simple API server
+gem 'sinatra'
+
+# Used to convert String to JSON
+gem 'activesupport'
+
+# HTTP request made easy
+gem 'httparty'
+
