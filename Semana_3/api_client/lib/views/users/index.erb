@@ -1,0 +1,23 @@
+<h1>Hello world from Sinatra!!!</h1>
+
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Last Name</th>
+    <th>Gender</th>
+    <th>Address</th>
+    <th>Options</th>
+  </tr>
+  <% @users.each do |user| %>
+    <tr>
+      <td><%= user.id %></td>
+      <td><%= user.name %></td>
+      <td><%= user.lastname %></td>
+      <td><%= user.gender %></td>
+      <td><%= user.address %></td>
+      <td><a href="/users/<%= user.id%>/edit">Editar</a></td>
+    </tr>
+  <% end %>
+</table>
