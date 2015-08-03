@@ -7,6 +7,6 @@ Open 2 terminal tabs and follow the instructios
     
 2. Run the API client
      
-         $ cd api_client && rackup
+        $ cd api_client && rackup
      
      
