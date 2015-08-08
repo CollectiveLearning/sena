@@ -29,5 +29,9 @@ class UsersController < ApplicationController
   end
 
 
-  delete ':id/delete'
+  get '/:id/delete' do
+    @user = User.find(params[:id])
+    @user.delete
+    redirect to('/')
+  end
 end

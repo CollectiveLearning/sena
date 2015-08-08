@@ -1,0 +1,20 @@
+
+<table>
+  <tr>
+    <th>ID</th>
+    <th>text</th>
+    <th>post ID</th>
+    <th colspan="2">Options</th>
+  </tr>
+  <% @posts.each do |post| %>
+    <tr>
+      <td><%= post.id %></td>
+      <td><%= post.text %></td>
+      <td><%= post.user_id %></td>
+      <td><a href="/posts/<%= post.id%>/edit">Editar</a></td>
+      <td><a href="/posts/<%= post.id%>/delete">Eliminar</a></td>
+    </tr>
+  <% end %>
+</table>
+
+<a href="/posts/new">Crear</a>

@@ -1,0 +1,16 @@
+<form action="/posts" method="post">
+  <input type="hidden" name="_method" value="PUT" />
+  <label>Text</label>
+  <input type="text" name="post[text]">
+  <br>
+
+  <label>User ID</label>
+  <select name="post[user_id]">
+    <% User.all.each do |user| %>
+      <option value="<%= user.id %>"><%= user.name %></option>
+    <% end %>
+  </select>
+  <br>
+  <input type="submit" value="Save" name="action">
+
+</form>

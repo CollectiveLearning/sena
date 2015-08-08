@@ -1,0 +1,24 @@
+<form action="/users/<%= @user.id%>/update" method="post">
+  <label>Name</label>
+  <input type="text" name="user[name]" value="<%= @user.name  %>">
+  <br>
+
+  <label>Last Name</label>
+  <input type="text" name="user[lastname]" value="<%= @user.lastname  %>">
+  <br>
+
+  <label>Gender</label>
+  <input type="text" name="user[gender]" value="<%= @user.gender  %>">
+  <br>
+
+  <label>Address</label>
+  <input type="text" name="user[address]" value="<%= @user.address  %>">
+  <br>
+
+  <label>Age</label>
+  <input type="text" name="user[age]" value="<%= @user.age  %>">
+
+  <br>
+  <input type="submit" value="Save" name="action">
+
+</form>
