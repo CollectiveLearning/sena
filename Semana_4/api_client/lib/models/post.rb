@@ -1,6 +1,6 @@
 class Post < Wrapper::Base
 
-  attr_accessor :id, :text, :user_id, :url, :created_at, :updated_at, :status
+  attr_accessor :id, :text, :user_id, :url, :created_at, :updated_at
 
   def to_json
     {post: {

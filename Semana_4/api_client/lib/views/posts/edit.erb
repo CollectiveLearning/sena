@@ -1,4 +1,5 @@
 <form action="/posts/<%= @post.id%>/update" method="post">
+  <input type="hidden" name="_method" value="PUT" />
   <label>User ID</label>
   <input type="text" name="post[name]" value="<%= @post.user_id  %>">
   <br>
