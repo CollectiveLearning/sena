@@ -2,9 +2,97 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="dd83484e-2b17-4205-b050-8614c226cc22" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/SENA.iml" afterPath="$PROJECT_DIR$/.idea/SENA.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Semana_3/api_client/config.ru" afterPath="$PROJECT_DIR$/Semana_3/api_client/config.ru" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Semana_3/api_client/lib/controllers/users_controller.rb" afterPath="$PROJECT_DIR$/Semana_3/api_client/lib/controllers/users_controller.rb" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/Gemfile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/Gemfile.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/README.rdoc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/Rakefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/assets/images/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/assets/javascripts/application.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/assets/javascripts/posts.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/assets/javascripts/users.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/assets/stylesheets/application.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/assets/stylesheets/posts.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/assets/stylesheets/scaffolds.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/assets/stylesheets/users.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/controllers/application_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/controllers/concerns/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/controllers/posts_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/controllers/users_controller.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/helpers/application_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/helpers/posts_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/helpers/users_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/mailers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/models/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/models/concerns/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/models/post.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/models/user.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/layouts/application.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/posts/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/posts/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/posts/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/posts/index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/posts/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/posts/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/posts/show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/users/_form.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/users/edit.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/users/index.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/users/index.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/users/new.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/users/show.html.erb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/app/views/users/show.json.jbuilder" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/bin/bundle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/bin/rails" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/bin/rake" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/bin/setup" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/bin/spring" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config.ru" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/application.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/boot.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/database.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/environment.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/environments/development.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/environments/production.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/environments/test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/initializers/assets.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/initializers/backtrace_silencers.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/initializers/cookies_serializer.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/initializers/filter_parameter_logging.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/initializers/inflections.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/initializers/mime_types.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/initializers/session_store.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/initializers/wrap_parameters.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/locales/en.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/routes.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/config/secrets.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/db/migrate/20150801124313_create_users.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/db/migrate/20150801124444_create_posts.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/db/schema.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/db/seeds.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/lib/assets/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/lib/tasks/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/log/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/public/404.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/public/422.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/public/500.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/public/favicon.ico" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/public/robots.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/controllers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/controllers/posts_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/controllers/users_controller_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/fixtures/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/fixtures/posts.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/fixtures/users.yml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/helpers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/integration/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/mailers/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/models/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/models/post_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/models/user_test.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/test/test_helper.rb" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/vendor/assets/javascripts/.keep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Semana_3/my_api/vendor/assets/stylesheets/.keep" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="SENA.iws" />
@@ -187,6 +275,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SENA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SENA" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Semana_4" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
