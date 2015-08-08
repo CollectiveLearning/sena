@@ -24,8 +24,11 @@ class PostsController < ApplicationController
     erb :edit
   end
 
-  post '/:id/update' do
-
+  post '/:id' do
+    # Buscar el registro
+    # Sobreescribir los atributos
+    # Hacer la petición PUT al API
+    # Redireccionar al index
   end
 
 
