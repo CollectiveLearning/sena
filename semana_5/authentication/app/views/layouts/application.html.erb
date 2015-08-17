@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Authentication</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+<% flash.each do |key, msg| %>
+  <p><%= msg %></p>
+<% end %>
+
+<% if @current_user %>
+  <p>Bienvenido <%= @current_user.name %></p>
+  <%= link_to 'Salir', destroy_sessions_path %>
+<% else %>
+  <%= link_to 'Ingresar', new_session_path %>
+<% end %>
+
+<%= yield %>
+
+</body>
+</html>
