@@ -1,0 +1,66 @@
+<%= form_for(@user) do |f| %>
+  <% if @user.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@user.errors.count, "error") %> prohibited this user from being saved:</h2>
+
+      <ul>
+        <% @user.errors.full_messages.each do |message| %>
+          <li><%= message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="row">
+    <div class="large-4 medium-4 columns">
+      <%= f.label :card_id %><br>
+      <%= f.text_field :card_id %>
+    </div>
+    <div class="large-4 medium-4 columns">
+      <%= f.label :identification_type %><br>
+      <%= f.select :identification_type, options_for_select(@user.identification_types) %>
+    </div>
+    <div class="large-4 medium-4 columns">
+      <%= f.label :name %><br>
+      <%= f.text_field :name %>
+    </div>
+    <div class="large-4 medium-4 columns">
+      <%= f.label :last_name %><br>
+      <%= f.text_field :last_name %>
+    </div>
+    <div class="large-4 medium-4 columns">
+      <%= f.label :address %><br>
+      <%= f.text_field :address %>
+    </div >
+    <div class="large-4 medium-4 columns">
+      <%= f.label :gender %><br>
+      <%= f.select :gender, options_for_select(@user.genders) %>
+    </div>
+    <div class="large-4 medium-4 columns">
+      <%= f.label :phone %><br>
+      <%= f.text_field :phone %>
+    </div>
+
+    <div class="large-4 medium-4 columns">
+      <%= f.label :email %><br>
+      <%= f.text_field :email %>
+    </div>
+
+    <div class="large-4 medium-4 columns">
+      <%= f.label :password %><br>
+      <%= f.password_field :password %>
+    </div>
+    <div class="large-4 medium-4 columns">
+      <%= f.label :password_confirmation %><br>
+      <%= f.password_field :password_confirmation %>
+    </div>
+  </div>
+  <div class="row">
+    <div class="large-4 medium-4 columns">
+      <div class="actions">
+        <%= f.submit 'Aceptar', class: 'button' %>
+      </div>
+    </div>
+  </div>
+
+<% end %>
