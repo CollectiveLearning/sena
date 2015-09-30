@@ -1,0 +1,2 @@
+web: rails s
+wss: node lib/wss-tienda/server.js

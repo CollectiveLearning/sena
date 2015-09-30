@@ -1,0 +1,67 @@
+{
+    "File": {
+        "ID": "8ff21382-7e72-829e-88ee-e61a5c6c9823",
+        "Path": "/Users/rubenespinosaroldan/Documents/Projects/SENA/Semana_10/tienda/Appfile",
+        "Source": "",
+        "Application": {
+            "Name": "tienda",
+            "Type": "ruby",
+            "Dependencies": null
+        },
+        "Project": {
+            "Name": "tienda",
+            "Infrastructure": "tienda"
+        },
+        "Infrastructure": [
+            {
+                "Name": "tienda",
+                "Type": "aws",
+                "Flavor": "simple",
+                "Foundations": [
+                    {
+                        "Name": "consul",
+                        "Config": null
+                    }
+                ]
+            }
+        ],
+        "Customization": null,
+        "Imports": null
+    },
+    "Vertices": [
+        {
+            "File": {
+                "ID": "8ff21382-7e72-829e-88ee-e61a5c6c9823",
+                "Path": "/Users/rubenespinosaroldan/Documents/Projects/SENA/Semana_10/tienda/Appfile",
+                "Source": "",
+                "Application": {
+                    "Name": "tienda",
+                    "Type": "ruby",
+                    "Dependencies": null
+                },
+                "Project": {
+                    "Name": "tienda",
+                    "Infrastructure": "tienda"
+                },
+                "Infrastructure": [
+                    {
+                        "Name": "tienda",
+                        "Type": "aws",
+                        "Flavor": "simple",
+                        "Foundations": [
+                            {
+                                "Name": "consul",
+                                "Config": null
+                            }
+                        ]
+                    }
+                ],
+                "Customization": null,
+                "Imports": null
+            },
+            "Dir": "",
+            "NameValue": "tienda"
+        }
+    ],
+    "Edges": []
+}

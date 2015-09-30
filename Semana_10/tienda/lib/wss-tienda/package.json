@@ -1,0 +1,15 @@
+{
+  "name": "wss-tienda",
+  "version": "1.0.0",
+  "description": "Servidor de Web Sockets de la tienda",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruben Espinosa",
+  "license": "MIT",
+  "dependencies": {
+    "redis": "^1.0.0",
+    "socket.io": "^1.3.6"
+  }
+}

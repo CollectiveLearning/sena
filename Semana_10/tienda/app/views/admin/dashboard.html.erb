@@ -1,0 +1,50 @@
+<div class="row" id="dashboard">
+  <div class="medium-6 columns">
+    <h3>Articulos próximos a agotarse</h3>
+    <hr>
+    <table>
+      <% if @to_buy.any? %>
+        <thead>
+        <tr>
+          <td>Producto</td>
+          <td>Disponible</td>
+        </tr>
+        </thead>
+        <tbody class="to-buy">
+        <% @to_buy.each do |item| %>
+          <tr>
+            <td><%= item.name %></td>
+            <td><%= item.quantity %></td>
+          </tr>
+        <% end %>
+      <% else %>
+        <div class="alert-box info">
+          Todos los productos tienen inventario.
+        </div>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+  <div class="medium-6 columns">
+    <h3>Últimos articulos vendidos</h3>
+    <hr>
+    <table>
+      <thead>
+      <tr>
+        <td>Producto</td>
+        <td>Cantidad</td>
+        <td>Fecha de venta</td>
+      </tr>
+      </thead>
+      <tbody class="latest-sells">
+      <% @latest.each do |item| %>
+        <tr>
+          <td><%= item.product.name %></td>
+          <td><%= item.quantity %></td>
+          <td><%= l item.created_at, format: :short %></td>
+        </tr>
+      <% end %>
+      </tbody>
+    </table>
+  </div>
+</div>

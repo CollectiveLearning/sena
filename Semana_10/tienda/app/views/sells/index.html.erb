@@ -1,0 +1,28 @@
+<h3>Ventas</h3>
+<hr>
+<table>
+  <thead>
+  <tr>
+    <th>ID</th>
+    <th>Producto</th>
+    <th>Cantiad</th>
+    <th>Valor Bruto</th>
+    <th>Valor Iva</th>
+    <th>Valor Total</th>
+  </tr>
+  </thead>
+  <tbody>
+  <% @sells.each do |sell| %>
+    <tr>
+      <td><%= sell.id %></td>
+      <td><%= sell.product.try(:name) %></td>
+      <td><%= sell.quantity%></td>
+      <td><%= sell.fee_total%></td>
+      <td><%= sell.price_total %></td>
+      <td><%= sell.grand_total%></td>
+    </tr>
+  <% end %>
+  </tbody>
+</table>
+
+<%= link_to 'Nueva venta', new_sell_path, class: 'button' %>
