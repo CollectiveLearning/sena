@@ -8,3 +8,5 @@ Talleres realizados en el curso dictado en el sena
 | Presentación      | https://speakerdeck.com/rderoldan1/presentacion |
 |1      | https://speakerdeck.com/rderoldan1/primera-sesion |
 |2      | https://speakerdeck.com/rderoldan1/segunda-sesion |
+|8      | https://speakerdeck.com/rderoldan1/realtime-apps-with-rails-plus-socket-dot-io-plus-redis |
+
